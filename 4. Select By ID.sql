@@ -1,0 +1,5 @@
+USE HackerRank_SQL;
+
+SELECT *
+FROM CITY
+WHERE ID = 1661;
