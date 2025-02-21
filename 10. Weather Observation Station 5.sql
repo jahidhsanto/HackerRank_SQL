@@ -1,4 +1,20 @@
 USE HackerRank_SQL;
 
-select length(CITY)
-from station;
+with shortest_city as (
+	SELECT TOP 1 CITY 
+    FROM STATION 
+    ORDER BY LEN(CITY) ASC, CITY),
+
+longest_city as (
+	SELECT TOP 1 CITY 
+    FROM STATION 
+    ORDER BY LEN(CITY) DESC, CITY
+)
+
+SELECT CITY, LEN(CITY) AS CITY_LENGTH
+FROM shortest_city
+
+union
+
+SELECT CITY, LEN(CITY) AS CITY_LENGTH
+FROM longest_city;
