@@ -1,4 +1,5 @@
 USE HackerRank_SQL;
 
-select *
-from 
+select name
+from employee
+order by name asc;
