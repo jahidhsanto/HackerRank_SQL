@@ -71,6 +71,15 @@ INSERT INTO Occupations (Name, Occupation)
 VALUES ('Samantha', 'Doctor'),('Julia', 'Actor'),('Maria', 'Actor'),('Meera', 'Singer'),('Ashley', 'Professor'),('Ketty', 'Professor'),('Christeen', 'Professor'),('Jane', 'Actor'),('Jenny', 'Doctor'),('Priya', 'Singer');
 
 
+CREATE TABLE Employees (
+    ID INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Salary INT
+);
+
+INSERT INTO Employees (ID, Name, Salary)
+VALUES (1, 'Alice Johnson', 50000),(2, 'Bob Smith', 55000),(3, 'Charlie Brown', 60000),(4, 'David Wilson', 65000),(5, 'Emma Thomas', 70000),(6, 'Frank Harris', 75000),(7, 'Grace Martin', 80000),(8, 'Henry Moore', 85000),(9, 'Isabella Lee', 90000),(10, 'Jack White', 95000),(11, 'Kelly Adams', 50000),(12, 'Liam Scott', 55000),(13, 'Mia Carter', 60000),(14, 'Nathan Walker', 65000),(15, 'Olivia Young', 70000),(16, 'Paul King', 75000),(17, 'Quinn Wright', 80000),(18, 'Rachel Allen', 85000),(19, 'Samuel Hill', 90000),(20, 'Tina Baker', 95000),(21, 'Umar Green', 50000),(22, 'Victoria Nelson', 55000),(23, 'William Perez', 60000),(24, 'Xander Hall', 65000),(25, 'Yvonne Turner', 70000),(26, 'Zachary Phillips', 75000),(27, 'Amber Campbell', 80000),(28, 'Brandon Mitchell', 85000),(29, 'Catherine Roberts', 90000),(30, 'Daniel Parker', 95000),(31, 'Emily Evans', 50000),(32, 'Felix Edwards', 55000),(33, 'Gabriella Collins', 60000),(34, 'Harrison Stewart', 65000),(35, 'Ivy Morris', 70000),(36, 'Jacob Rogers', 75000),(37, 'Katherine Reed', 80000),(38, 'Lucas Bailey', 85000),(39, 'Madeline Howard', 90000),(40, 'Noah Torres', 95000),(41, 'Olivia Morgan', 50000),(42, 'Peter Cooper', 55000),(43, 'Quincy Peterson', 60000),(44, 'Rebecca Gray', 65000),(45, 'Steven Ramirez', 70000),(46, 'Taylor James', 75000),(47, 'Ursula Bryant', 80000),(48, 'Vincent Russell', 85000),(49, 'Wendy Foster', 90000),(50, 'Xavier Simmons', 95000),(51, 'Yasmine Butler', 50000),(52, 'Zane Bennett', 55000),(53, 'Angela Flores', 60000),(54, 'Benjamin Jenkins', 65000),(55, 'Caroline Coleman', 70000),(56, 'Derek Perry', 75000),(57, 'Elena Powell', 80000),(58, 'Francis Long', 85000),(59, 'George Hughes', 90000),(60, 'Hannah Kim', 95000);
+
 
 
 ------------------------------
